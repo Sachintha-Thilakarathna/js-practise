@@ -71,20 +71,20 @@
 // }
 // oddEven();
 
-// function favColor (color){
-//    color = prompt("What is your favourite color?")
-//    if(color === blue){
-//       alert("Wow! Blue is cool!")
-//    }
-//    else if(color === red){
-//       alert("Red is full of energy!")
-//    }
-//    else{
-//       alert("That's a nice color too!")
-//    }
-// } 
+function favColor (color){
+   color = prompt("What is your favourite color?")
+   if(color == "blue"){
+      alert("Wow! Blue is cool!")
+   }
+   else if(color == "red"){
+      alert("Red is full of energy!")
+   }
+   else{
+      alert("That's a nice color too!")
+   }
+} 
 
-//  favColor();
+ favColor()
 
 // function calculator(num01,num02){
 //    num01 = Number(prompt("Enter number 01"))
@@ -108,7 +108,7 @@
 
 // function secretNumber(number) {
 //    number = Number(prompt("Enter your lucky number"))
-//    if(number === 7){
+//    if(number == 7){
 //       alert("Congratulations! You guessed it!")
 //    }
 //    else{
@@ -116,4 +116,25 @@
 //    }
 // }
 
-// secretNumber()
+//  secretNumber()
+
+// function Bmi (weight,height){
+//     weight = Number(prompt("Enter your weight(kg)"))
+//     height = Number(prompt("Enter your height(m))"))
+//     Bmi    = weight/(height*height)
+//     if(Bmi < 18.5){
+//         alert("Underweight")
+//     }
+//     else if(18.5 <= Bmi < 24.9){
+//         alert("Normalweight")
+//     }
+//     else if(25 <= Bmi < 29.9){
+//         alert("Overweight")
+//     }
+//     else if(Bmi >= 30){
+//         alert("Obese")
+//     }
+
+// }
+
+// Bmi()
