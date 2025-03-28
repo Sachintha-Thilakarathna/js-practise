@@ -23,7 +23,7 @@
 // else if(operater === "**"){
 //     alert(num1**num2);
 // }
-// else if(operater === "/")
+// else if(operater === "%")
 //     {
 //         alert(num1%num2);
 //     }
@@ -65,26 +65,26 @@
 //    if(num01 %0){
 //       alert("Number is even");
 //    }
-//    else(num01 %1);{
+//    else if(num01 %1);{
 //       alert("Number is odd");
 //    }
 // }
 // oddEven();
 
-function favColor (color){
-   color = prompt("What is your favourite color?")
-   if(color == "blue"){
-      alert("Wow! Blue is cool!")
-   }
-   else if(color == "red"){
-      alert("Red is full of energy!")
-   }
-   else{
-      alert("That's a nice color too!")
-   }
-} 
+// function favColor (color){
+//    color = prompt("What is your favourite color?")
+//    if(color == "blue"){
+//       alert("Wow! Blue is cool!")
+//    }
+//    else if(color == "red"){
+//       alert("Red is full of energy!")
+//    }
+//    else{
+//       alert("That's a nice color too!")
+//    }
+// } 
 
- favColor()
+//  favColor()
 
 // function calculator(num01,num02){
 //    num01 = Number(prompt("Enter number 01"))
